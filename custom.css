@@ -1,0 +1,37 @@
+/* Carousel */
+
+.carousel-caption {
+    padding-bottom: 5%;
+}
+
+.carousel-caption h5 {
+    font-size: 43px;
+    font-weight: bold;
+    color: #781400;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #781400;
+}
+
+/* h3{
+color: white;
+text-shadow: 2px 2px black;}
+
+.navfundo{
+background: #252522;   }
+
+.navtexto{
+color:#FFBF00;    }
+
+.titulo2{
+background: #252522;
+    COLOR:#FFBF00;
+    padding: inherit;
+    text-align: center;
+    width: auto;
+    height: 100px;}
+
+*/
