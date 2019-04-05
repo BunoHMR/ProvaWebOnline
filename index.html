@@ -1,0 +1,423 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gado+ Leilão de gado</title>
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link href="custom.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="Logo2.png" width="225" height="90" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Tipos oferecidos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Gado manso</a>
+                    <a class="dropdown-item" href="#">Gado líder</a>
+                    <a class="dropdown-item" href="#">Gado treinado</a>
+                    <a class="dropdown-item" href="#">Gado premium</a>
+                    <a class="dropdown-item" href="#">Gado trabalhador</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Visualizar todos</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Meus lances</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav>
+
+<div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="7000">
+                <img src="bois1.jpg" class="d-block img-fluid" alt="First">
+                <div class="carousel-caption d-md-block">
+                    <h5>Gado+ é o seu leilão online!</h5>
+                    <p>O maior leilão de gado online da FATEC Indaiatuba</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="7000">
+                <img src="bois2.jpg" class="d-block img-fluid" alt="Second">
+                <div class="carousel-caption d-md-block">
+                    <h5>Lances 24Hrs</h5>
+                    <p>Fique de olho para garantir aquele gado dos sonhos</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="7000">
+                <img src="bois3.jpg" class="d-block img-fluid" alt="Third">
+                <div class="carousel-caption d-md-block">
+                    <h5>Imensa variedade</h5>
+                    <p>O maior acervo online de bovinos</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Seja bem-vindo ao Gado+</h1>
+        <p class="lead font-weight-normal">O maior portal de leilão online de gado da FATEC indaiatuba</p>
+        <br>
+
+        <!-- 4:3 aspect ratio -->
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ENt5mUUxD4g"></iframe>
+        </div>
+        <br>
+        <a class="btn btn-outline-secondary" href="#">Veja os lances</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+
+<div class="container">
+    <div class="row mb-2">
+        <!-- Manso -->
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Tobias</a>
+                    </h3>
+                    <div class="mb-1 text-muted">29 Março</div>
+                    <p class="card-text mb-auto">Este é um gado do ano de 2005, jovem dinâmico, pronto para venda e
+                        exibição</p>
+                    <a href="#">Lances a partir de R$699,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado4.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Azeitona</a>
+                    </h3>
+                    <div class="mb-1 text-muted">27 Março</div>
+                    <p class="card-text mb-auto">Um gado adorável e manso, ideal para acrescentar algo que falta em seu
+                        rancho!</p>
+                    <a href="#">Lances a partir de R$519,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado3.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Raia</a>
+                    </h3>
+                    <div class="mb-1 text-muted">27 Março</div>
+                    <p class="card-text mb-auto">Esse gado oferece o conteúdo mais recente do mundo automobilístico, é
+                        auto-sustentável e gera renda (US$) no YouTube,
+                        ótima opção econômica.</p>
+                    <a href="#">Lances a partir de R$199,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="igor.jpg">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Denny</a>
+                    </h3>
+                    <div class="mb-1 text-muted">25 Março</div>
+                    <p class="card-text mb-auto"> Este gado possui antecedentes sombrios em Engenharia, ao menos com
+                        diploma. Embora sua praia seja T.I,
+                        está pronto para demais projetos remunerados.</p>
+                    <a href="#">Lances a partir de R$499,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="thiago.jpg">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Fernandes</a>
+                    </h3>
+                    <div class="mb-1 text-muted">25 Março</div>
+                    <p class="card-text mb-auto"> Um gado que otrora buscou dominar a galáxia e caiu no encanto de uma
+                        fêmea que conheceu no Instagram.
+                        <i>"Para você faço de tudo, meu amor!"</i></p>
+                    <a href="#">Lances a partir de R$699,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado6.png">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Peçanha</a>
+                    </h3>
+                    <div class="mb-1 text-muted">23 Março</div>
+                    <p class="card-text mb-auto">Este corn..gado é desilusivo, garante qualquer fonte de divertimento à
+                        sua fêmea.
+                        <i>"Atrás de todo grande YouTuber tem uma grande namorada entediada"</i> - Queiroz, Karol.</p>
+                    <a href="#">Lances a partir de R$129,99</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado7.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Edmir Vilas</a>
+                    </h3>
+                    <div class="mb-1 text-muted">20 Março</div>
+                    <p class="card-text mb-auto">Um gado fã de modão sertanejo e eventos gerais, ótimo para exposições
+                        familiares.</p>
+                    <a href="#">Lances a partir de R$128,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado5.png">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado bem-manso</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Bimbo</a>
+                    </h3>
+                    <div class="mb-1 text-muted">19 Março</div>
+                    <p class="card-text mb-auto">Categorizado como bem-manso, este gado passa a maior parte do tempo se
+                        alimentando e dormindo, possui uma beleza sem igual.</p>
+                    <a href="#">Lances a partir de R$599,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado8.png">
+            </div>
+        </div>
+
+        <!-- Lider/Treinado -->
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-primary">Gado líder</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Dario</a>
+                    </h3>
+                    <div class="mb-1 text-muted">18 Março</div>
+                    <p class="card-text mb-auto">Uma espécie de gado recém-descoberta no Conjunto Organizacional
+                        Republicano Nacional Oligárquico (C.O.R.N.O), possui características
+                        intelectuais únicas!</p>
+                    <a href="#">Lances a partir de R$999,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="dario.jpg">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado treinado</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Marcão</a>
+                    </h3>
+                    <div class="mb-1 text-muted">15 Março</div>
+                    <p class="card-text mb-auto">De praxe, um gado que possui formalização técnica no SENAI, pronto para
+                        tarefas manuais e remuneradas.</p>
+                    <a href="#">Lances a partir de R$799,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="marcos.jpg">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado premium</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Algemiro da cerca branca</a>
+                    </h3>
+                    <div class="mb-1 text-muted">15 Março</div>
+                    <p class="card-text mb-auto">Um gado que causa curiosidade em fêmeas, mas seus encantos não são
+                        duradouros... Diz a
+                        lenda que seu chifre aumenta à cada encontro</p>
+                    <a href="#">Lances a partir de R$899,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado2.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado premium</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Zé Chifrudo</a>
+                    </h3>
+                    <div class="mb-1 text-muted">13 Março</div>
+                    <p class="card-text mb-auto">Zé é um gado muito famoso no Reino Montemorense, outrora, foi atração
+                        turística por causa de seus Chifres Unificados Conjuntos, C.U.C.</p>
+                    <a href="#">Lances a partir de R$699,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="gado1.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado trabalhador</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Vitão</a>
+                    </h3>
+                    <div class="mb-1 text-muted">12 Março</div>
+                    <p class="card-text mb-auto">Possuí um raríssimo "corno" com instruções técnicas de T.I (Não cursou
+                        Engenharia nem Gestão Empresarial!)
+                        <br>
+                        <i>"Cadê a bolinha Marcão?"</i></p>
+                    <a href="#">Lances a partir de R$899,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="victor.jpeg">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Gado trabalhador</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">"Sunset" Dias</a>
+                    </h3>
+                    <div class="mb-1 text-muted">11 Março</div>
+                    <p class="card-text mb-auto">Um gado bem misterioso, aparece apenas quando está à procura de fêmeas
+                        ao pôr do sol em sua cidade natal, Corlândia.</p>
+                    <a href="#">Lances a partir de R$899,90</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb"
+                     alt="Card image cap" alt="Thumbnail [200x250]" src="dias.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table" align="right">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Sessão</th>
+            <th scope="col">Primeiro lance</th>
+            <th scope="col">Segundo lance</th>
+            <th scope="col">Terceiro lance</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>06 de Abril</td>
+            <td>07 de Abril</td>
+            <td>08 de Abril</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>12 de Abril</td>
+            <td>13 de Abril</td>
+            <td>14 de Abril</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>20 de Abril</td>
+            <td>21 de Abril</td>
+            <td>22 de Abril</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer class="blog footer">
+    <p>
+        "Site construído para "
+        <a href="http://www.fatecid.com.br/site/"> Profª Janaine Arantes</a>
+        " por Bruno Rigão ADS 4ºSEM 2019"
+    </p>
+    <p>
+        <a href="#"> De volta ao topo</a>
+    </p>
+</footer>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</head>
+</html>
